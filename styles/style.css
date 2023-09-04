@@ -12,7 +12,8 @@ body {
   align-items: center;
   height: 100vh;
   font-family: open sans;
-  color: #10214e;
+  font-weight: bold;
+  color: #380062;
 }
 
 article {
@@ -25,9 +26,9 @@ article {
   max-width: 25em;
   min-width: 20em;
   border-radius: 1rem;
-  background: rgb(0,239,255);
-  background: linear-gradient(0deg, rgba(0,239,255,1) 40%, #4e54c8 100%);
-  box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
+  background: #AEC7E3;
+  background: radial-gradient( #ADE3E6 30%, #AEC7E3 100%);
+  box-shadow: 0 0 20px 20px #98C4F3;
   transition: .25s;
 }
 
@@ -41,7 +42,7 @@ header {
 
 h1 {
   margin: 2rem 0 1rem;
-  color: rgba(0,239,255,1);
+  color: #380062;
 }
 
 button {
@@ -52,17 +53,17 @@ button {
   height: 2.5rem;
   padding: .25rem;
   border: none;
-  border-radius: 50%;
-  background: rgba(0,239,255,1);
+  border-radius: 30%;
+  background: #ADE3E6;
   transform: scale(.8);
   transition: .25s;
 }
 button:focus {
   outline: none;
-  background: #202592;
+  background: #67A9DB;
 }
 button:focus svg {
-  stroke: rgba(0,239,255,1);
+  stroke: #67A9DB;
 }
 
 svg {
@@ -78,13 +79,14 @@ button svg:nth-of-type(2) {
 }
 
 img {
-  position: relative;
+ position: relative;
+  /*Put pic on the right!*/
   top: 2rem;
   width: 10em;
   height: auto;
   border: 5px solid #fff;
   border-radius: 10em;
-  box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
+  box-shadow: 0 0 2px 2px #98C4F3;
   transition: .25s .15s;
 }
 
@@ -102,13 +104,14 @@ dl {
   margin-bottom: 0;
   padding: 5rem 0 3rem;
   text-align: center;
-  background: rgb(255,255,255);
+  background: #85ABDA
+;
 }
 
 dt {
   margin-top: .25rem;
   padding-top: .25rem;
-  border-top: 1px solid rgba(0,0,0,0.3);
+  border-top: 1px solid #98C4F3;
   font-weight: bold;
 }
 dt:nth-of-type(1) {
@@ -129,6 +132,12 @@ dd {
 }
 dd:nth-of-type(2){  
   transform: translateY(1rem);
+}
+
+a{
+text-decoration: none;
+font-weight: bold;
+color: #380062;
 }
 
 p { 
