@@ -38,6 +38,7 @@ header {
   justify-content: center;
   align-items: center;
   justify-content: flex-end;
+  border:#BFA181;
 }
 
 h1 {
@@ -106,13 +107,12 @@ dl {
   padding: 5rem 0 3rem;
   text-align: center;
   background: #0a1869;
-;
 }
 
 dt {
   margin-top: .25rem;
   padding-top: .25rem;
-  border-top: 1px solid #232f78;
+  border-top: 2px solid #BFA181;
   font-weight: bold;
 }
 dt:nth-of-type(1) {
