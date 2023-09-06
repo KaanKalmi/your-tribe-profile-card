@@ -1,11 +1,13 @@
 *{
   color: whitesmoke;
+  text-shadow:1px 1px 8px #fff, 1px 1px 8px #ccc;
   font-family: lora;
   font-weight: bold;
 }
 
 body{
-  background-color: black;
+  background: rgb(0,0,0);
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(21,1,73,1) 100%);
 }
 
 h1{
@@ -17,14 +19,20 @@ h1{
 img{
   max-width: 128px;
   max-height: 128px;
+  border-radius: 40px;
 }
 
-h3{
-  text-decoration: wavy;
+p{
+  font-weight: light;
+}
+
+h4{
+  font-weight: lighter;
 }
 
 .card{
   border: 2px solid;
+  box-shadow:1px 1px 12px #fff, 1px 1px 12px #ccc;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -33,7 +41,9 @@ h3{
   align-items: center;
   text-align: center;
   border-radius: 22px;
-  max-width: 25%;
+  max-width: 20%;
+  background: rgb(66,12,92);
+  background: linear-gradient(111deg, rgba(66,12,92,1) 0%, rgba(84,116,159,1) 54%, rgba(15,8,78,1) 100%);
 }
 
 .container{
