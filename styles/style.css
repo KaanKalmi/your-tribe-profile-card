@@ -7,10 +7,10 @@
 body {
   height: 100vh;
   overflow: hidden;
+  color: #40e0d0;
   background: rgb(90,88,91);
   background: radial-gradient(circle, rgba(90,88,91,1) 0%, rgba(50,50,50,1) 35%, rgba(0,0,0,1) 100%);
   font-family: quicksand;
-  color: #40e0d0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,18 +18,21 @@ body {
 /*aligning everything correctly in the middle, general background gradient and fonts*/
 h1{
   font-family: lora;
-  text-shadow: 2px 2px 4px #40e0d0;
+  color: #fffdd0;
+  text-shadow: 2px 2px 4px #FFD700;
   font-weight: bold;
 }
 /*h1 text changes*/
 p{
   font-weight: bold;
-  text-shadow: 2px 2px 4px #40e0d0;
+  color: #fffdd0;
+  text-shadow: 2px 2px 4px #fffdd0;
 }
 /*p text changes*/
 h4{
   font-weight: lighter;
-  text-shadow: 2px 2px 4px #40e0d0;
+  color: #fffdd0;
+  text-shadow: 2px 2px 4px #fffdd0;
 }
 /*h4 text changes*/
 img{
