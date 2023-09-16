@@ -23,18 +23,20 @@ h1{
   font-weight: bold;
 }
 /*h1 text changes*/
-p{
-  font-weight: bold;
-  color: #fffdd0;
-  text-shadow: 2px 2px 4px #fffdd0;
-}
-/*p text changes*/
-h4{
+h2{
   font-weight: lighter;
+  font-size: 1.2em;
   color: #fffdd0;
   text-shadow: 2px 2px 4px #fffdd0;
 }
-/*h4 text changes*/
+/*h2 text changes*/
+h3{
+  font-weight: lighter;
+  font-size: 1em;
+  color: #fffdd0;
+  text-shadow: 2px 2px 4px #fffdd0;
+}
+/*h3 text changes*/
 img{
   border-radius: 20px;
 }
