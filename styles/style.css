@@ -3,87 +3,110 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /*general margins padding and box sizing*/
+
 body {
   height: 100vh;
   overflow: hidden;
   color: #40e0d0;
-  background: rgb(90,88,91);
-  background: radial-gradient(circle, rgba(90,88,91,1) 0%, rgba(50,50,50,1) 35%, rgba(0,0,0,1) 100%);
+  background: rgb(90, 88, 91);
+  background: radial-gradient(circle, rgba(90, 88, 91, 1) 0%, rgba(50, 50, 50, 1) 35%, rgba(0, 0, 0, 1) 100%);
   font-family: quicksand;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 /*aligning everything correctly in the middle, general background gradient and fonts*/
-h1{
+
+h1 {
   font-family: lora;
   color: #fffdd0;
   text-shadow: 2px 2px 4px #FFD700;
   font-weight: bold;
 }
+
 /*h1 text changes*/
-h2{
+
+h2 {
   font-weight: lighter;
   font-size: 1.2em;
   color: #fffdd0;
   text-shadow: 2px 2px 4px #fffdd0;
 }
+
 /*h2 text changes*/
-h3{
+
+h3 {
   font-weight: lighter;
   font-size: 1em;
   color: #fffdd0;
   text-shadow: 2px 2px 4px #fffdd0;
 }
+
 /*h3 text changes*/
-img{
+
+img {
   border-radius: 20px;
 }
+
 /*image rounding*/
+
 .container {
   width: 350px;
   height: 500px;
   perspective: 800px;
 }
+
 /*card width, height and perspective for the effect*/
+
 .container:hover > .card {
   cursor: grabbing;
   transform: rotateY(-540deg);
 }
+
 /*the cursor change and turning effec when hovering over the container (card turns itself)*/
+
 .card {
   height: 100%;
   width: 100%;
   position: relative;
   border: 2px solid;
-  border-radius: 30px;
+  border-radius: 32px;
   border-color: #795C32;
   transition: transform 1000ms;
   transform-style: preserve-3d;
 }
+
 /*card features including the sizing, positioning, border and transform duration with the preserve-3d which makes the card look 3d xD*/
-.front,
-.back {
+
+.front, .back {
   height: 100%;
   width: 100%;
   border-radius: 2rem;
   position: absolute;
   backface-visibility: hidden;
 }
+
 /*front and back side properties of the card including the sizing, border, shadow, positioning and backface visibility*/
+
 .front {
-  background: rgb(0,0,0);
-  background: linear-gradient(150deg, rgba(0,0,0,1) 41%, rgba(57,57,57,1) 100%);  display: flex;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(150deg, rgba(0, 0, 0, 1) 41%, rgba(57, 57, 57, 1) 100%);
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 2em;
 }
+
 /* front properties including column sorted, aligning the contents to the center and making a gap so its less centered*/
+
 .back {
-  background: rgb(0,0,0);
-  background: linear-gradient(315deg, rgba(0,0,0,1) 41%, rgba(57,57,57,1) 100%);  transform: rotateY(-180deg);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(315deg, rgba(0, 0, 0, 1) 41%, rgba(57, 57, 57, 1) 100%);
+  transform: rotateY(-180deg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,4 +114,5 @@ img{
   padding: 2em;
   gap: 2em;
 }
+
 /*back properties same as front, but with the gradient inverted and extra padding*/
