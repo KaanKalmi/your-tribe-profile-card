@@ -12,7 +12,7 @@ body {
   color: #40e0d0;
   background: rgb(90, 88, 91);
   background: radial-gradient(circle, rgba(90, 88, 91, 1) 0%, rgba(50, 50, 50, 1) 35%, rgba(0, 0, 0, 1) 100%);
-  font-family: quicksand;
+  font-family: Genos;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,8 @@ body {
 /*aligning everything correctly in the middle, general background gradient and fonts*/
 
 h1 {
-  font-family: lora;
+  font-family: Genos;
+  font-size: 2em;
   color: #fffdd0;
   text-shadow: 2px 2px 4px #FFD700;
   font-weight: bold;
@@ -43,6 +44,7 @@ h3 {
   font-size: 1em;
   color: #fffdd0;
   text-shadow: 2px 2px 4px #fffdd0;
+  text-align: center;
 }
 
 /*h3 text changes*/
@@ -61,7 +63,7 @@ img {
 
 /*card width, height and perspective for the effect*/
 
-.container:hover > .card {
+.container:hover>.card {
   cursor: grabbing;
   transform: rotateY(-540deg);
 }
@@ -81,7 +83,8 @@ img {
 
 /*card features including the sizing, positioning, border and transform duration with the preserve-3d which makes the card look 3d xD*/
 
-.front, .back {
+.front,
+.back {
   height: 100%;
   width: 100%;
   border-radius: 2rem;
