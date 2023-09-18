@@ -30,25 +30,32 @@ h1 {
 
 /*h1 text changes*/
 
-h2 {
+ul {
   font-weight: lighter;
   font-size: 1.2em;
   color: #fffdd0;
   text-shadow: 2px 2px 4px #fffdd0;
+  text-decoration: none;
+  list-style: none;
 }
 
 /*h2 text changes*/
 
-h3 {
+blockquote {
   font-weight: lighter;
   font-size: 1em;
   color: #fffdd0;
   text-shadow: 2px 2px 4px #fffdd0;
+  max-width: 30ch;
   text-align: center;
+  text-wrap:balance;
 }
 
-/*h3 text changes*/
+/*blockquote text changes*/
 
+cite{
+  display: block;
+}
 img {
   border-radius: 20px;
 }
