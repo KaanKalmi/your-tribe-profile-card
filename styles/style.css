@@ -9,7 +9,6 @@
 body {
   height: 100vh;
   overflow: hidden;
-  color: #40e0d0;
   background: rgb(90, 88, 91);
   background: radial-gradient(circle, rgba(90, 88, 91, 1) 0%, rgba(50, 50, 50, 1) 35%, rgba(0, 0, 0, 1) 100%);
   font-family: Genos;
@@ -34,7 +33,7 @@ ul {
   font-weight: lighter;
   font-size: 1.2em;
   color: #fffdd0;
-  text-shadow: 2px 2px 4px #fffdd0;
+  text-shadow: 2px 2px 4px #FFD700;
   text-decoration: none;
   list-style: none;
 }
@@ -45,7 +44,7 @@ blockquote {
   font-weight: lighter;
   font-size: 1em;
   color: #fffdd0;
-  text-shadow: 2px 2px 4px #fffdd0;
+  text-shadow: 2px 2px 4px #FFD700;
   max-width: 30ch;
   text-align: center;
   text-wrap:balance;
@@ -83,7 +82,7 @@ img {
   position: relative;
   border: 2px solid;
   border-radius: 32px;
-  border-color: #795C32;
+  border-color: #FFD700;
   transition: transform 1000ms;
   transform-style: preserve-3d;
 }
